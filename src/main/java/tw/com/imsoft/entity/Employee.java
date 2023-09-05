@@ -19,7 +19,7 @@ public class Employee {
     private String iden ;
 
     @Column(name = "USERNAME")
-    private String userName ;
+    private String username ;
 
     @Column(name = "PASSWORD")
     private String password ;
@@ -31,12 +31,6 @@ public class Employee {
     private String ename ;
 
     @Column(name = "BIRTHDAY")
-    private LocalDateTime birthday ;
-
-    @Column(name = "STATUS")
-    private String status ;
-
-    @Column(name = "EFFECTIVE_DATE")
-    private LocalDateTime effectiveDate ;
+    private LocalDateTime birth ;
 
 }
